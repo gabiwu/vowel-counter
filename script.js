@@ -2,7 +2,7 @@ const text = document.querySelector(".input-text");
 const btn = document.querySelector(".btn");
 const result = document.querySelector(".result");
 
-btn.addEventListener("click", countVowel); // Event listener to trigger 'palindrome'
+btn.addEventListener("click", countVowel); // Event listener to trigger 'countVowel function'
 
 function countVowel() {
     let vowelCount = 0;
